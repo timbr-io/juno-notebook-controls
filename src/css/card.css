@@ -1,0 +1,73 @@
+.btn-main {
+  font-family: inherit; /* Correct font family not being inherited in all browsers. */
+  font-size: 87.5%; /* Correct font size not being inherited in all browsers. */
+  margin: 0; /* Address margins set differently in Firefox 4+, Safari 5, and Chrome. */
+  vertical-align: baseline; /* Improves appearance and consistency in all browsers */
+  *vertical-align: middle; /* Improves appearance and consistency in all browsers */
+  line-height: normal; /* Addresses FF3/4 setting line-height using !important in the UA stylesheet */
+  -webkit-appearance: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer; /* Improves usability and consistency of cursor style between image-type 'input' and others */
+  line-height: 1.428571429;
+  padding: 6px 12px;
+  background: #efefef;
+  border-radius: 4px;
+  color: #ffffff !important; 
+}
+
+.btn-primary { 
+  background: #00a2de; 
+}
+
+.btn-success {
+  background: #5cb85c; 
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+.btn {
+  composes: btn-main;
+  composes: btn-block;
+  composes: btn-primary;
+}
+
+.btnSuccess {
+  composes: btn-main;
+  composes: btn-block;
+  composes: btn-success;
+}
+
+.compare {
+  margin-top: 24px;
+}
+.compare .compareTitle {
+  text-align: center;
+  font-weight: bold;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  border-top: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+}
+.compare .compareBody {
+  padding: 0 24px;
+}
+.compare .compareBody p {
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+.compare .compareFooter {
+  padding-top: 24px;
+}
+
+.meta {
+  color: #878787;
+  font-size: 0.694em;
+  font-style: italic;
+}
+
+
