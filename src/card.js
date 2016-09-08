@@ -2,7 +2,9 @@ import React from 'react';
 import css from './css/card.css';
 
 function Card( props ) {
-  const { selected, type, changeTo } = props;
+  const { notebookSize, type, changeTo } = props;
+
+  const selected = notebookSize === type.toLowerCase();
 
   return ( 
     <div className='col-sm-4'>
